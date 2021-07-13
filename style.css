@@ -151,3 +151,17 @@ div.fadeIn {
     transform: translateY(0px);
   }
 }
+
+
+.bio {
+  color: rgb(224, 224, 224);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bio-link {
+  color: rgb(224, 224, 224);
+}
