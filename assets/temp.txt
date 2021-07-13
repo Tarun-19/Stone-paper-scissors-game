@@ -1,1 +1,1 @@
-
+Renaming these files will also affect the visualation in game.
