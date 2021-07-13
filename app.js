@@ -74,16 +74,16 @@ const game = () => {
     const winner = document.querySelector(".winner"); // to replace 'choose an option' to 'current result':)
 
     if (playerChoice === computerChoice) {
-      winner.textContent = "It is a tie";
+      winner.textContent = "It's a tie";
       return;
     }
 
     if (playerChoice === "rock") {
       if (computerChoice === "scissors") {
-        winner.textContent = "Player Wins";
+        winner.textContent = "You win:)";
         pScore++;
       } else {
-        winner.textContent = "Computer Wins";
+        winner.textContent = "You loose:(";
         cScore++;
       }
       updateScore();
@@ -92,10 +92,10 @@ const game = () => {
 
     if (playerChoice === "paper") {
       if (computerChoice === "rock") {
-        winner.textContent = "Player Wins";
+        winner.textContent = "You win:)";
         pScore++;
       } else {
-        winner.textContent = "Computer Wins";
+        winner.textContent = "You loose:(";
         cScore++;
       }
       updateScore();
@@ -104,10 +104,10 @@ const game = () => {
 
     if (playerChoice === "scissors") {
       if (computerChoice === "paper") {
-        winner.textContent = "Player Wins";
+        winner.textContent = "You win:)";
         pScore++;
       } else {
-        winner.textContent = "Computer Wins";
+        winner.textContent = "You loose:(";
         cScore++;
       }
       updateScore();
