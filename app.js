@@ -52,8 +52,8 @@ const game = () => {
           // call compare hands
           compareHands(this.textContent, computerChoice);
           // update images
-          playerHand.src = `/assets/${this.textContent}.png`;
-          computerHand.src = `/assets/${computerChoice}.png`;
+          playerHand.src = `/Stone-paper-scissors-game/assets/${this.textContent}.png`;
+          computerHand.src = `/Stone-paper-scissors-game/assets/${computerChoice}.png`;
         }, 2000);
 
         playerHand.style.animation = "shakePlayer 2s ease";
